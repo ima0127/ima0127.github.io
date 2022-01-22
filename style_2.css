@@ -1,0 +1,78 @@
+/* Dark mode */
+
+.Dark{
+    background: #121212;
+    transition: 800ms;
+}
+
+.Dark header{
+    background: #202020;
+    transition: 800ms;
+    box-shadow: 0 4px 25px -22px #ffff;
+
+
+}
+
+.Dark .header-content a{
+    color: #ffff;
+}
+.Dark .header-content a:hover{
+    color: rgb(86, 86, 207);
+}
+
+.Dark .logo h1{
+    color: #ffff;
+}
+.Dark.logo h1 b{
+    color:rgb(219, 39, 33) ;
+}
+
+.Dark .btn-dark{
+    background: rgb(0, 39, 83);
+    color: #ffff;
+}
+
+
+.Dark div .fa-bars{
+    background: #fff;
+    color: #202020;
+}
+
+.Dark div #icon-menu{
+    background: #202020;
+    color: #202020;
+}
+
+.Dark div #icon-menu:hover{
+    background: #353434;
+}
+
+
+.Dark h1, h2{
+    color: #ffff;
+}
+.Dark p{
+    color: rgb(201, 199, 199);
+}
+.Dark .container-content aside button{
+    background: #353434;
+}
+.Dark .container-footer{
+    background:#121212 ;
+}
+
+.Dark .container-footer form{
+    background: #202020;
+}
+
+.Dark .container-footer form .form-input{
+    background: #353434;
+    color: #ffff;
+}
+
+
+
+.Dark .container-footer hr{
+    background: #353434;
+}
+
