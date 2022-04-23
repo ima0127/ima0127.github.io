@@ -1,6 +1,7 @@
 document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
 let navBar = document.getElementById("nav-bar");
 let navLinks = navBar.querySelectorAll("li");
+console.log("hola como estas");
 
 function mostrar_menu(){
 /*     document.getElementById("move-content").classList.toggle('move-container-all'); 
@@ -15,11 +16,24 @@ navLinks.forEach((navLinks) => {
     });
 });
 
+const buttonDark = document.querySelector(".btn-dark").addEventListener("click", darkMode);
 
-
-function darkmode(){
+function darkMode(){
     let darkness = document.body;
-    darkness.classList.toggle("Dark");
+    darkness.classList.toggle('Dark');
+
+    if(document.body.classList.contains('Dark')){
+        localStorage.setItem('darkMode', 'enabled');
+    }
+    else{
+        localStorage.setItem('darkMode', 'disabled');
+        localStorage.removeItem('darkMode');
+        localStorage.clear()
+    }
+}
+
+if(localStorage.getItem('darkMode') == 'enabled'){
+    document.body.classList.toggle('Dark');
 }
 
 

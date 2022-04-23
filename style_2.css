@@ -47,12 +47,22 @@
     background: #353434;
 }
 
+.Dark .container-aside h2{
+    color: #ffff;
+}
+
+.Dark .container-aside .viewDemo{
+    background: rgb(0, 39, 83);
+}
 
 .Dark h1, h2{
     color: #ffff;
 }
 .Dark p{
     color: rgb(201, 199, 199);
+}
+aside{
+    border: solid 5px #202020;
 }
 .Dark .container-content aside button{
     background: #353434;
@@ -68,6 +78,10 @@
 .Dark .container-footer form .form-input{
     background: #353434;
     color: #ffff;
+}
+
+.Dark .container-footer form .form-cta{
+    background: rgb(0, 39, 83);
 }
 
 
