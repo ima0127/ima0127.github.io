@@ -28,7 +28,7 @@
 }
 
 .Dark .btn-dark{
-    background: rgb(0, 39, 83);
+    background: #002753;
     color: #ffff;
 }
 .Dark aside h2{
@@ -54,6 +54,13 @@
     background: #353434;
 }
 
+.Dark .container-content aside .repo{
+    background: #002753;
+}
+
+.Dark article::before{
+    background: #353434;
+}
 
 .Dark h1, h2{
     color: #ffff;
