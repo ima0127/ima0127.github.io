@@ -61,7 +61,7 @@
 .Dark p{
     color: rgb(201, 199, 199);
 }
-aside{
+.Dark aside{
     border: solid 5px #202020;
 }
 .Dark .container-content aside button{

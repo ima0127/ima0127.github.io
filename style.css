@@ -292,6 +292,10 @@ article::before{
     left: 0;
     background: rgb(22, 21, 21);
 }
+
+.Dark article::before{
+    background: #353434;
+}
  
 
 article h1{
